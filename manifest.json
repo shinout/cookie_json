@@ -1,0 +1,15 @@
+{
+  "name"            : "cookie_json",
+  "version"         : "1.0",
+  "description"     : "get cookies of every site as JSON format",
+  "browser_action"  : {
+    "default_icon"    : "icon.png" // アイコンの画像ファイル
+  },
+  "background_page" : "background.html", // ポップアップ表示されるHTMLファイル
+  "permissions"     : [
+    "cookies",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
